@@ -1,0 +1,33 @@
+{
+  "homepage": "http://teamtrimtab.github.io/blockcertify",
+  "name": "blockcertify",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "buffer": "^5.4.3",
+    "firebase": "^7.5.0",
+    "html2canvas": "^1.0.0-rc.5",
+    "jquery": "^3.4.1",
+    "jspdf": "^1.5.3",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "qrcode.react": "^1.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.11.0",
+    "react-qr-code": "^0.1.3",
+    "react-qr-svg": "^2.2.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
